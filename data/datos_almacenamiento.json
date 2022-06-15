@@ -1,0 +1,27 @@
+[
+    {
+        "nombre": "Disco Solido SSD WD 1TB Green 545MB/s", 
+        "precio": 14000
+    },
+
+    {
+        "nombre": "Disco Solido SSD WD 4TB Blue 545MB/s", 
+        "precio": 84000
+    },
+
+    {
+        "nombre": "Disco Sólido SSD Gigabyte 1TB 520MB/s SATA 6GB/s", 
+        "precio": 15000
+    },
+
+    {
+        "nombre": "Disco Rígido WD 1TB BLACK 64MB SATA 6.0GB/s", 
+        "precio": 13000
+    },
+
+    {
+        "nombre": "Disco Rígido WD 6TB Blue Sata III", 
+        "precio": 38000
+    }
+
+]

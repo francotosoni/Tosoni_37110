@@ -1,0 +1,22 @@
+[
+    {
+        "nombre": "Fuente ASUS ROG THOR 850P 80 Plus Platinum 850W Full modular", 
+        "precio": 47000
+    },
+
+    {
+        "nombre": "Fuente Cooler Master 1250w MWE V2 Full Modular 80 Plus Gold", 
+        "precio": 45000
+    },
+
+    {
+        "nombre": "Fuente ASUS ROG STRIX 1000G 80 Plus Gold Full Modular", 
+        "precio": 38000
+    },
+
+    {
+        "nombre": "Fuente Gigabyte 1000W 80 Plus Gold Full Modular", 
+        "precio": 28000
+    }
+
+]

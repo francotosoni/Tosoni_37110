@@ -1,0 +1,33 @@
+[
+    {
+        "nombre": "Placa de Video MSI GeForce RTX 3090 24GB GDDR6X GAMING X TRIO", 
+        "precio": 447000
+    },
+
+    {
+        "nombre": "Placa de Video ASUS GeForce RTX 3080 10GB GDDR6X ROG STRIX", 
+        "precio": 295000
+    },
+
+    {
+        "nombre": "Placa de Video ASUS GeForce RTX 3070 Ti 8GB GDDR6 ROG STRIX", 
+        "precio": 180000
+    },
+
+    {
+        "nombre": "Placa de Video ASUS GeForce RTX 3060 12GB GDDR6 ROG STRIX GAMING", 
+        "precio": 130000
+    },
+
+    {
+        "nombre": "Placa de Video ASUS Radeon RX 6900 XT 16GB GDDR6 TUF GAMING", 
+        "precio": 315000
+    },
+
+    {
+        "nombre": "Placa de Video ASUS Radeon RX 6800 16GB GDDR6 TUF Gaming", 
+        "precio": 170000
+    }
+
+
+]

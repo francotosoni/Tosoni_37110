@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega 2 - JS</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+
+    <header class="header">
+        <img class="logo" src="../imagenes/logo.jpg" alt="Logotipo Pagina de Compras" width="150">
+            
+        <nav class="navegador">
+            <ul class="navegador__lista">
+                <li><a class="navegador__texto" href="../index.html">Inicio</a></li>
+                <li><a class="navegador__texto" href="productos_procesadores.html">Productos</a></li>
+                <li><a class="navegador__texto" id="navegador_carrito" href="carrito.html">Carrito de compras</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main class="inicio">
+
+        <div class="productos">
+
+            <div>
+                <ul class="productos__seleccion">
+                    <li class="productos__seleccion__elemento productos__seleccion__pagina">
+                        <a class="productos__seleccion__titulo" href="./productos_procesadores.html">Procesadores</a>
+                    </li>
+                    <li class="productos__seleccion__elemento">
+                        <a class="productos__seleccion__titulo" href="./productos_mothers.html">Mothers</a>
+                    </li>
+                    <li class="productos__seleccion__elemento">
+                        <a class="productos__seleccion__titulo" href="./productos_ram.html">Memorias RAM</a>
+                    </li>
+                    <li class="productos__seleccion__elemento">
+                        <a class="productos__seleccion__titulo" href="./productos_almacenamiento.html">Almacenamiento</a>
+                    </li>
+                    <li class="productos__seleccion__elemento">
+                        <a class="productos__seleccion__titulo" href="./productos_placas.html">Placas de Video</a>
+                    </li>
+                    <li class="productos__seleccion__elemento">
+                        <a class="productos__seleccion__titulo" href="./productos_fuentes.html">Fuentes</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="productos__lista">
+                
+                <div class="producto">
+                    <img class="producto__imagen" src="../imagenes/i5.jpg" alt="Procesador Intel Core i5 12600K 4.90GHz Turbo Socket 1700" > 
+                    <span class="producto__texto" >Procesador Intel Core i5 12600K 4.90GHz Turbo Socket 1700</span>
+                    <span class="producto__texto precio">$48.000</span>
+                    <div class="especificacion">
+                        <span class="producto__texto cantidad">0</span>
+                        <button class="boton" id="btnAgregar">+</button>
+                        <button class="boton__eliminar" id="btnEliminar">-</button> 
+                    </div>
+                </div>
+                
+                <div class="producto">
+                    <img class="producto__imagen" src="../imagenes/i7.jpg" alt="
+                    Procesador Intel Core i7 12700K 5.0GHz Turbo Socket 1700">
+                    <span class="producto__texto">
+                        Procesador Intel Core i7 12700K 5.0GHz Turbo Socket 1700</span>
+                    <span class="producto__texto precio">$67.000</span>
+                    <div class="especificacion">
+                        <span class="producto__texto cantidad">0</span>
+                        <button class="boton" id="btnAgregar">+</button>
+                        <button class="boton__eliminar" id="btnEliminar">-</button> 
+                    </div>
+                </div>
+                
+                <div class="producto">
+                    <img class="producto__imagen" src="../imagenes/i9.jpg" alt="
+                    Procesador Intel Core i9 12900K 5.2GHz Turbo Socket 1700">
+                    <span class="producto__texto">
+                        Procesador Intel Core i9 12900K 5.2GHz Turbo Socket 1700</span>
+                    <span class="producto__texto precio">$100.000</span>
+                    <div class="especificacion">
+                        <span class="producto__texto cantidad">0</span>
+                        <button class="boton" id="btnAgregar">+</button>
+                        <button class="boton__eliminar" id="btnEliminar">-</button> 
+                    </div>
+                </div>
+
+                <div class="producto">
+                    <img class="producto__imagen" src="../imagenes/ryzen5.jpg" alt="
+                    Procesador AMD Ryzen 5 5600G 4.4GHz Turbo + Wraith Stealth Cooler">    
+                    <span class="producto__texto">
+                        Procesador AMD Ryzen 5 5600G 4.4GHz Turbo + Wraith Stealth Cooler</span>
+                    <span class="producto__texto precio">$43.000</span>
+                    <div class="especificacion">
+                        <span class="producto__texto cantidad">0</span>
+                        <button class="boton" id="btnAgregar">+</button>
+                        <button class="boton__eliminar" id="btnEliminar">-</button> 
+                    </div>
+                </div>
+                
+                <div class="producto">
+                    <img class="producto__imagen" src="../imagenes/ryzen7.jpg" alt="
+                    Procesador AMD Ryzen 7 5800X 4.7GHz Turbo AM4">
+                    <span class="producto__texto">
+                        Procesador AMD Ryzen 7 5800X 4.7GHz Turbo AM4</span>
+                    <span class="producto__texto precio">$54.000</span>
+                    <div class="especificacion">
+                        <span class="producto__texto cantidad">0</span>
+                        <button class="boton" id="btnAgregar">+</button>
+                        <button class="boton__eliminar" id="btnEliminar">-</button> 
+                    </div>
+                </div>
+                
+                <div class="producto">
+                    <img class="producto__imagen" src="../imagenes/ryzen9.jpg" alt="
+                    Procesador AMD Ryzen 9 5950X 4.9GHz Turbo AM4">
+                    <span class="producto__texto">
+                        Procesador AMD Ryzen 9 5950X 4.9GHz Turbo AM4</span>
+                    <span class="producto__texto precio">$90.000</span>
+                    <div class="especificacion">
+                        <span class="producto__texto cantidad">0</span>
+                        <button class="boton" id="btnAgregar">+</button>
+                        <button class="boton__eliminar" id="btnEliminar">-</button> 
+                    </div>
+                </div>  
+            </div>
+
+        </div>
+
+        
+    </main>
+    <footer class="footer">
+        <img class="logo" src="../imagenes/logo.jpg" alt="Logotipo Pagina de compras" width="120">
+        <div class="footer__parrafo__central">
+            <div class="footer__parrafo__central__contacto">
+                <img class="logo" src="../imagenes/fb.png" alt="Facebook" width="80"> 
+                <img class="logo" src="../imagenes//ig.png" alt="Instagram" width="90">
+                <span>
+                   Numero: +54 (011) 1234-5678 <br>
+                 Mail: contacto@informatica.com.ar
+                </span>
+            </div>
+            <span class="footer__parrafo__central__derechos">
+                Copyright © 2022 | Todos los derechos reservados
+            </span>
+        </div>
+        <ul class="footer__navegador">
+            <li><a class="footer__navegador__texto" href="../index.html">Inicio</a></li>
+            <li><a class="footer__navegador__texto" href="productos_procesadores.html">Productos</a></li>
+            <li><a class="footer__navegador__texto" href="carrito.html">Carrito de Compras</a></li>
+            
+        </ul>
+        
+       
+    </footer>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/procesadores.js"></script>
+
+    
+    
+</body>
+</html>

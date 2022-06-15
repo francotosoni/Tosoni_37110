@@ -1,0 +1,33 @@
+[
+    {
+        "nombre": "Procesador Intel Core i5 12600K 4.90GHz Turbo Socket 1700", 
+        "precio": 48000
+    },
+
+    {
+        "nombre": "Procesador Intel Core i7 12700K 5.0GHz Turbo Socket 1700", 
+        "precio": 67000
+    },
+
+    {
+        "nombre": "Procesador Intel Core i9 12900K 5.2GHz Turbo Socket 1700", 
+        "precio": 100000
+    },
+
+    {
+        "nombre": "Procesador AMD Ryzen 5 5600G 4.4GHz Turbo + Wraith Stealth Cooler", 
+        "precio": 43000
+    },
+
+    {
+        "nombre": "Procesador AMD Ryzen 7 5800X 4.7GHz Turbo AM4", 
+        "precio": 54000
+    },
+
+    {
+        "nombre": "Procesador AMD Ryzen 9 5950X 4.9GHz Turbo AM4", 
+        "precio": 90000
+    }
+
+
+]

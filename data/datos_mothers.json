@@ -1,0 +1,21 @@
+[
+    {
+        "nombre": "Mother Asrock X570 TAICHI - RAZER EDITION", 
+        "precio": 58000
+    },
+
+    {
+        "nombre": "Mother ASUS ROG MAXIMUS XIII EXTREME GLACIAL", 
+        "precio": 221000
+    },
+
+    {
+        "nombre": "Mother ASUS ROG X570 CROSSHAIR VIII EXTREME", 
+        "precio": 119000
+    },
+
+    {
+        "nombre": "Mother MSI MEG Z690 UNIFY DDR5 S1700", 
+        "precio": 83000
+    }
+]
